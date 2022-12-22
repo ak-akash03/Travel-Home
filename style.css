@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 10px;
+}
+.main{
+    height: 660px;
+    width: 100%;
+    padding-top: 200px;
+    background-image: url(./IMG/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.secondmaindiv .btn{
+    margin-top: 20px;
+    color: rgb(0, 255, 60);
+    
+    border: 1px solid black;
+}
+/* .secondmaindiv .btn:hover{
+    color: rgb(0, 72, 255);
+    background-color: rgb(177, 223, 213);
+} */
+.aklogo{
+    height: 40px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.lm-10{
+    margin-left: 20px;
+}
+
+.footerx a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footerx a:hover{
+    color: blue;
+    border-bottom: 2px solid rgb(0, 255, 21);
+}
+.secondmaindiv a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* .main{
+    height: 1500px; 
+    background-color: red;
+} */
+
+.imgxx{
+    height: 90px;
+    width: auto;
+}
+.contain{
+    margin-top: 20px;
+    /* font-size: 30px; */
+}
+/* .containdiv{
+    margin-top: 1000px;
+} */
+.midleimg img{
+    height: 100%;
+    width: 100%;
+}
+
+.gripdiv{
+    height: 460px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 20px;
+    
+}
+
+.grip01{
+    height: 450px;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+.grip02{
+    height: 450px;
+    width: 48%;
+    float: right;
+    display: inline-block;
+    padding-top: 30px;
+}
+.grip01 img{
+    height: 400px;
+    width: auto;
+    margin-top: 30px;
+}
+.grip02 h1{
+    font-size: 60px;
+}
+.grip02 p{
+    font-size: 20px;
+}
+
+
+@media(max-width: 600px) {
+    
+    .gripdiv{
+        height: 860px;
+        width: 100%;
+        background-color: gray;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+    .grip01{
+        height: auto;
+        width: 100%;
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .grip01 img{
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+        margin:10px;
+    }
+    .grip02{
+        height: 450px;
+        /* width: 48%; */
+        float: none;
+        width: 100%;
+        display: inline-block;
+        padding-top: 30px;
+        padding: 20px;
+    }
+
+
+}
