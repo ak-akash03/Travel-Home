@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Chivo Mono', monospace;
-    font-size: 10px;
+    font-size: 16px;
 }
 .main{
     height: 660px;
@@ -20,8 +20,13 @@
 .secondmaindiv .btn{
     margin-top: 20px;
     color: rgb(0, 255, 60);
-    
     border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgb(116, 113, 120);
+}
+.secondmaindiv .btn a{
+    color: white;
 }
 /* .secondmaindiv .btn:hover{
     color: rgb(0, 72, 255);
